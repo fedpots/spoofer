@@ -27,14 +27,6 @@ A clean, lightweight **custom Vencord plugin** that lets you **spoof profile vis
 Follow this tutorial to enable and use custom plugins in Vencord:  
 https://www.youtube.com/watch?v=XmVNRKrphlw
 
-After you have custom plugins enabled:
-
-1. Put this plugin folder into your **Vencord custom plugins** directory.
-2. Reload Discord / Vencord.
-3. Open **Vencord Settings → Plugins**
-4. Enable **Profile Spoofer**
-5. Configure it in the plugin settings.
-
 > If changes don’t appear immediately, fully restart Discord.
 
 ---
