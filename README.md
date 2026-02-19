@@ -1,0 +1,2 @@
+# spoofer
+Vencord spoofer plugin.
