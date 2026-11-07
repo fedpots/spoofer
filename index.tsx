@@ -5,8 +5,9 @@
 
 import { definePluginSettings } from "@api/Settings";
 import { BadgePosition, ProfileBadge, addProfileBadge, removeProfileBadge } from "@api/Badges";
+import { Button } from "@components/Button";
 import definePlugin, { OptionType } from "@utils/types";
-import { Button, React, TextInput, Tooltip, UserStore } from "@webpack/common";
+import { React, TextInput, Tooltip, UserStore } from "@webpack/common";
 
 
 
@@ -750,7 +751,7 @@ function SettingsPanel() {
                             );
                         })}
                 </div>
-                <Button color={Button.Colors.RED} size={Button.Sizes.SMALL} onClick={() => setSelected([])}>
+                <Button variant="dangerPrimary" size="small" onClick={() => setSelected([])}>
                     ✕  Remove All
                 </Button>
             </div>
